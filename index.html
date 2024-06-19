@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Portfolio Project Website Design</title>
+</head>
+<body>
+   
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#qualification">Qualifications</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Vijay Kumar</h1>
+            <h3>And I'm a <span>Fresher</span></h3>
+
+            <div class="social-media">
+                <a href="https://github.com/VijayKumarGogula" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gogula-vijay-kumar-796317213/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="image-1.JPG" alt="">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="image-2.JPG" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Front-end Developer!</h3>
+            <p>I'm a skilled web developer specializing in HTML, CSS, and JavaScript, with a passion for creating responsive and user-friendly websites. My projects include a portfolio website and a multi-tool web app. I am certified in Java Full Stack Development by KodNest. As a fresher, I'm eager to apply my skills in a professional setting. Additionally, I’m a certified typist. Explore my projects on GitHub and connect with me on LinkedIn.</p>
+        </div>   
+    </section>
+
+    <!--Qualification SECTION DESIGN-->
+    <section class="qualification" id="qualification">
+        <div class="main-container">
+            <div class="left-container">
+                <div class="qualification-content">
+                    <h2 class="heading-qualify">Qualifications</h2>
+                </div>
+            
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+            
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><b>Programming Languages: </b></span>Java</li>
+                        <li><span><b>Web Technologies: </b></span>HTML, CSS, JavaScript</li>
+                        <li><span><b>Version Control: </b></span>Git, GitHub</li>
+                        <li><span><b>Database Management: </b></span>MySQL</li>
+                    </ul>
+                </div>
+            
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>G PULLA REDDY ENGINEERING COLLEGE (B.Tech)</li>
+                        <li><span>2017-2019</span><br>SRI MEDHA JUNIOR COLLEGE (Intermediate)</li>
+                        <li><span>2016-2017</span><br>RAVINDRA BHARATHI SCHOOL (SSC)</li>
+                    </ul>
+                </div>
+            
+                <div class="certification">
+                    <p class="certify">Certifications</p>
+                    <ul class="course-name">
+                        <li class="course-title">Java Fullstack Web Development</li>
+                        <ul>
+                            <li><span><b>Institution: </b></span>KodNest</li>
+                            <li><span><b>Date Issued: </b></span>February 7, 2024</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="right-container">
+                <div class="container1">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Communication</div>
+                        </div>
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">75%</div>
+                            <div class="text">Problem-Solving</div>
+                        </div>
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div class="percentage">80%</div>
+                            <div class="text">Teamwork</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Project Section Design-->
+
+    <section class="portfolio" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <a href="" id="home">
+                <div class="portfolio-box">
+                    <img src="portfolio-img.jpg" alt="" >
+                    <div class="portfolio-layer">
+                        <h3>Portfolio</h3>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://vijaykumargogula.github.io/Multi-Tool-Web-App/" target="_blank">
+                <div class="portfolio-box">
+                    <img src="MultiApp-img.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h3>Multi-Tool-Web-App</h3>
+                    </div>
+                </div>
+            </a>
+            
+            <a href="https://vijaykumargogula.github.io/WeddingInvitation/" target="_blank">
+                <div class="portfolio-box">
+                    <img src="Invitation-img.jpg" alt="">
+                    <div class="portfolio-layer">
+                        <h3>Wedding Invitation</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    
+
+
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!--Footer section Design-->
+    <footer class="footer">
+        <div class="footer-iconTop" >
+            <a href="#home"><i class="fa-solid fa-arrow-up" ></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Main Js-->
+    <script src="script.js"></script>
+</body>
+</html>
